@@ -1,0 +1,25 @@
+# ---- Normalize line endings to LF ----
+* text=auto eol=lf
+
+# Explicit line-ending rules for code files
+*.js     text eol=lf
+*.ts     text eol=lf
+*.json   text eol=lf
+*.md     text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.scss   text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+
+# Binary files – do not modify line endings
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.zip    binary
+
+# Optional: Disable Git diff for large binary
+*.lock   -diff

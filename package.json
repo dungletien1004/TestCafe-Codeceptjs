@@ -1,0 +1,19 @@
+{
+  "name": "codeceptjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --steps --debug",
+    "test:headless": "HEADLESS=true npx codeceptjs run --steps",
+    "test:debug": "npx codeceptjs run --debug",
+    "test:single": "npx codeceptjs run tests/openFile_test.js --steps"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^3.7.3",
+    "prettier": "^3.5.3",
+    "testcafe": "^3.7.2"
+  }
+}
